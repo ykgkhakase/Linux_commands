@@ -22,7 +22,7 @@ $ grep -A 10 "## MP2" abinitmp.log
 ```
 
 ## abinitmp.logというファイル名の中から automatic と書いてある行を表示する。
--i オプションで、この時大文字と小文字の区別をしない。
+-i オプションで、大文字と小文字の区別をしない。
 
 ```bash
 $ grep -i automatic abinitmp.log
