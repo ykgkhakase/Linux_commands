@@ -7,14 +7,14 @@ grep [検索ワード] ファイル
 $ grep "MP2" abinitmp.log
 ```
 
-## abinitmp.logというファイル名の中から "## MP2-IFIE" と書いてある行を表示する。
+### abinitmp.logというファイル名の中から "## MP2-IFIE" と書いてある行を表示する。
 検索ワードにスペースが含まれるので、ダブルクオートで検索ワードを括っている。
 
 ```bash
 $ grep "## MP2-IFIE" abinitmp.log
 ```
 
-## abinitmp.logというファイル名の中から "## MP2-IFIE" と書いてある行から10行を表示する。
+### abinitmp.logというファイル名の中から "## MP2-IFIE" と書いてある行から10行を表示する。
 -A オプションで指定可能。
 逆は -B オプションを使う。
 ```bash
