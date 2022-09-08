@@ -14,7 +14,7 @@ $ grep "MP2" abinitmp.log
 $ grep "## MP2-IFIE" abinitmp.log
 ```
 
-### abinitmp.logというファイル名の中から "## MP2-IFIE" と書いてある行から10行を表示する。
+### abinitmp.logというファイル中の "## MP2-IFIE" と書いてある行から10行を表示する。
 -A オプションで指定可能。
 逆は -B オプションを使う。
 ```bash
@@ -28,7 +28,7 @@ $ grep -A 10 "## MP2" abinitmp.log
 $ grep -i automatic abinitmp.log
 ```
 
--A などのオプションを組み合わせることができる。
+-A などのオプションとも組み合わせることもできる。
 
 ```bash
 $ grep -A 100 -i automatic abinitmp.log
