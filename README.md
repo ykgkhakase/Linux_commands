@@ -7,7 +7,7 @@ Linuxコマンドの使い方まとめ
 基本的Linuxコマンドのみとbashを前提としている。
 
 ### bashrc.md
-普段の研究を少しだけ快適にする設定集 [:arrow_forward:](basic/bashrc.md)
+普段の研究を少しだけ快適にするbashrc設定集 [:arrow_forward:](basic/bashrc.md)
 
 ### grep_log.md
 ABINIT-MPのログファイルに対する grep コマンド集 [:arrow_forward:](basic/.md)
