@@ -41,3 +41,10 @@ $ grep -A 100 -i automatic abinitmp.log
 $ grep -A 1000  -i automatic abinitmp.log  | grep "Basic Charged"
 ```
 
+### 一画面に表示しきれない場合は、less をさらに連結する。
+
+```
+$ grep -A 1000  -i automatic abinitmp.log  | grep "Basic Charged"　 | less
+```
+
+上下操作はvi に類似している。jで下, k で上, qで lessを終了する。
