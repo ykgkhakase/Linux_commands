@@ -56,7 +56,7 @@ $ screen -ls
 で起動中の screen のリストを見てから -r で指定する。
 
 ### デタッチ (detach)
-screen を起動中に Ctrl+G d を入力
+screen を起動中に Ctrl+g d を入力
 
 
 ### 著者がよく使うコマンド
@@ -67,6 +67,3 @@ screen を起動中に Ctrl+G d を入力
 - 次ののウインドに　移動する。 Ctrl+g n
 - 指定したウインド移動する。例えば一番のウインド Ctrl+g 1
  
-
-
-
