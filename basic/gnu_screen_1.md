@@ -50,6 +50,8 @@ termcapinfo xterm "li#45:co#145"
 $ vi ~/.screenrc
 ```
 
+screenrc の設定例はインターネットに山ほどあるので、自身で検索して追加してみると良い。
+
 ### アタッチとデタッチ
 
 #### アタッチ（attach)
@@ -68,7 +70,7 @@ $ screen -ls
 ### デタッチ (detach)
 screen を起動中に Ctrl+g d を入力
 
-### 著者がよく使う最小限どのコマンド
+### 著者がよく使う最小限度のコマンド
 ※ 上のトリガーをCtrl+g として設定した場合。
 
 - 新しいウインドを開く Ctrl+g c
@@ -76,3 +78,5 @@ screen を起動中に Ctrl+g d を入力
 - 次ののウインドに　移動する。 Ctrl+g n
 - 指定したウインド移動する。例えば一番のウインド Ctrl+g 1
  
+## その他
+screen に類似したソフトとしては tmux (:link:)[https://ja.wikipedia.org/wiki/Tmux] がある。
