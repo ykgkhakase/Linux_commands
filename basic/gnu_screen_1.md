@@ -33,8 +33,8 @@ screenはデフォルトだと見栄えが良くないが、カスタマイズ�
 vbell off
 startup_message off
 autodetach on
-# Ctrl+A から Ctrl+G にトリガーを変更する。
-# escape ^g^g
+# Ctrl+A から Ctrl+G にトリガーを変更する。（著者の好みなのでこの設定は自身で変更してください。）
+escape ^g^g
 hardstatus alwayslastline '%{= Kk}%m/%d %02c:%s %H %L=%-w%45L>%{= g.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
 scrollback 5000
 
