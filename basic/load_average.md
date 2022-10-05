@@ -28,6 +28,8 @@ $ uptime | cut -d ":"  -f 4 | cut -d , -f 1
 
 ## 直近1分間の値が10以下だったらokと表示する。
 
+現時点でbashでは小数点を含む数字の比較が出来なさそうなので、bc コマンドで数値の比較を行っている。
+
 ```bash
 [ $(echo "$(uptime | cut -d ":"  -f 4 | cut -d , -f 1) < 10" | bc -l) -gt 0 ] && echo ok
 ```
